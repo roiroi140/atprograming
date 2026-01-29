@@ -1,0 +1,8 @@
+{
+  "name": "AtCoder",
+  "image": "mcr.microsoft.com/devcontainers/cpp",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "postCreateCommand": "pip install online-judge-tools"
+}
